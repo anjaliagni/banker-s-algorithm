@@ -199,10 +199,10 @@ void* processCode(void *arg) {
 	for(int i=0; i<nResources; i++)
                 resources[i] += allocated[p][i];
 
-        printf("\n\tNow Available : ");
+        printf("\n\n\n\n\tNow Available : ");
         for(int i=0; i<nResources; i++)
                 printf("%3d", resources[i]);
-        printf("\n\n");
+        printf("\n\n\n\n");
 
         sleep(1);
 
